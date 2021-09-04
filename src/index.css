@@ -1,0 +1,10 @@
+body {
+  background-color: #463E4A;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 2.5rem 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  
+}
+

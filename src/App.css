@@ -1,0 +1,74 @@
+.container-sm {
+  display: block;  
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 2rem 0 2rem 0;
+}
+
+img {
+  width: 50vw;
+  align-self: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: stretch;
+  margin: 2rem 0 2rem 0;
+  padding: 0;
+}
+
+ul li {
+  margin: .5rem;
+  list-style: none;
+}
+
+ul li .card{
+  align-items: stretch;
+  color:white;
+}
+
+ul li .card-btn button{
+  background-color: #C18AE0;
+  border: none;
+  margin: 0 .5rem 0 .5rem;
+  width: 5rem;
+  border-radius: 5px;
+  transition: 300ms ease-in-out;
+}
+
+ul li .card-btn button:hover{
+  transform: scale(1.05);
+}
+
+.form-adm {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.form-adm form{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-adm form input{
+  text-align: center;
+}
+
+.form-adm form button{
+  background-color: #C18AE0;
+  transition: 300ms ease-in-out;
+  margin: .3rem 0 0 0;
+  border-style: none;
+}
+
+.form-adm form button:hover{
+  background-color: #9b63bb;
+}
